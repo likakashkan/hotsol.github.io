@@ -2130,12 +2130,12 @@ input, select, textarea {
     white-space: nowrap;
     line-height: 2.3em !important;
     padding: 0.5em 2.5em;
-    border: 0.1em solid #1B355C;
+    border: 0.1em solid #284878;
     margin: 0;
     border-radius: 8px;
     box-sizing: border-box;
     text-decoration: none;
-    color: #1B355C !important;
+    color: #284878 !important;
     text-align: center;
     font-weight: 500 !important;
     background-color: #FFFFFF;
@@ -2144,7 +2144,7 @@ input, select, textarea {
 }
     #contact_us_button:hover {
      color: #FFFFFF !important;
-     background-color: #1B355C;
+     background-color: #284878;
     }
 
 /* Articles */
@@ -2424,7 +2424,7 @@ input, select, textarea {
             padding: 0 120px;
             border-radius: 25px;
 			min-height: 700px;
-            background: #1B355C;
+            background: #284878;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -2592,7 +2592,7 @@ input, select, textarea {
 			box-sizing: border-box;
 			
 			cursor: pointer;
-			background-color: #1B355C;
+			background-color: #284878;
 			border-radius: 3px;
 			padding: 3px 6px;
 			
