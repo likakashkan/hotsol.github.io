@@ -2130,12 +2130,12 @@ input, select, textarea {
     white-space: nowrap;
     line-height: 2.3em !important;
     padding: 0.5em 2.5em;
-    border: 0.1em solid #0568FD;
+    border: 0.1em solid #1B355C;
     margin: 0;
     border-radius: 8px;
     box-sizing: border-box;
     text-decoration: none;
-    color: #0568FD !important;
+    color: #1B355C !important;
     text-align: center;
     font-weight: 500 !important;
     background-color: #FFFFFF;
@@ -2144,7 +2144,7 @@ input, select, textarea {
 }
     #contact_us_button:hover {
      color: #FFFFFF !important;
-     background-color: #0568FD;
+     background-color: #1B355C;
     }
 
 /* Articles */
@@ -2584,6 +2584,49 @@ input, select, textarea {
             text-shadow: none;
         }
 
+		#contact .contact_box .telegram-button{
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			height: 30px;
+			box-sizing: border-box;
+			
+			cursor: pointer;
+			background-color: #1B355C;
+			border-radius: 3px;
+			padding: 3px 6px;
+			
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 11px;
+			color: #FFF;
+			text-decoration: none;
+		}
+		
+		#contact .contact_box .telegram-button:hover{
+			background-color: #007dbb;
+		}
+		
+		#contact .contact_box .telegram-button:active{
+			background-color: #026698;
+		}
+		
+		#contact .contact_box .telegram-button i{
+			display: inline-block;
+			height: 12px;
+			width: 14px;
+			vertical-align: middle;
+			margin-right: 2px;
+			
+			background: url('https://telegram.org/img/oauth/tg_button_small.png') no-repeat;
+			background-size: contain;
+		}
+		
+		#contact .contact_box .telegram-button span{
+			display: inline-block;
+			vertical-align: top;
+			color: #FFF;
+		}
 
     .right-arrow, .top-right-arrow {
         display: inline-flex;
@@ -2635,7 +2678,6 @@ input, select, textarea {
             border-right: 2px solid #FFFFFF;
             transform: rotate(45deg);
         }
-
 
 /* Copyright */
 
