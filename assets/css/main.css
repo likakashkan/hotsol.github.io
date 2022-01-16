@@ -2423,6 +2423,7 @@ input, select, textarea {
             overflow: hidden;
             padding: 0 120px;
             border-radius: 25px;
+			min-height: 700px;
             background: #1B355C;
             display: flex;
             justify-content: space-between;
@@ -3017,6 +3018,7 @@ input, select, textarea {
 
 			#about_us .about_us_box {
                 padding: 2.5em 2em;
+				height: auto;
                 flex-direction: column;
                 justify-content: space-around;
 			}
