@@ -2424,7 +2424,6 @@ input, select, textarea {
             padding: 0 120px;
             border-radius: 25px;
             background: #1B355C;
-            height: 650px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -3019,7 +3018,6 @@ input, select, textarea {
 			#about_us .about_us_box {
                 padding: 2.5em 2em;
                 flex-direction: column;
-                height: 750px;
                 justify-content: space-around;
 			}
 
